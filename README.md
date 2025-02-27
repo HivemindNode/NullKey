@@ -17,7 +17,7 @@ Is an encryption key that cannot be stolen."_
    python3 nullkey.py --encrypt secret.txt
 2. Decrypt it once—after that, the key vanishes:
 
-python3 nullkey.py --decrypt encrypted.dat
+   python3 nullkey.py --decrypt encrypted.dat
 
 3. Once the key expires, decryption is impossible
 
